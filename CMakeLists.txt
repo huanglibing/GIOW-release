@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
 project(GIOW)
 set(CMAKE_CXX_STANDARD 14)
-SET(CMAKE_BUILD_TYPE "Release")
+SET(CMAKE_BUILD_TYPE "DEBUG")
+#SET(CMAKE_BUILD_TYPE "Release")
 
 include_directories(${PROJECT_SOURCE_DIR}/lib/eigen3)
 IF (WIN32)
